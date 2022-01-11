@@ -29,7 +29,7 @@ async function main() {
     // parseCookies(initialRequest);
     // console.log(cookies);
     // console.log(session.defaults.headers);
-    loginCheckPayload = '{"email":"ahlawataman3@gmail.com","password":"temporarypass"}';
+    loginCheckPayload = '{"email":"ahlawataman3@gmail.com","password":"----"}';
     const loginCheck = await session.get(loginURL, loginCheckPayload);
     console.log(loginCheck.headers);
 }
